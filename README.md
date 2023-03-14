@@ -52,3 +52,9 @@ docker run \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
   fruafr/ubuntu
 ```
+
+## Source of release information
+- To pull the latest official docker version : `docker pull ubuntu:latest`
+- [Ubuntu - DockerHub](https://hub.docker.com/_/ubuntu)
+- [Ubuntu - Releases](https://wiki.ubuntu.com/Releases)
+
