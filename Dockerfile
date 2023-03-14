@@ -7,9 +7,9 @@ ENV container docker
 ENV DEBIAN_FRONTEND noninteractive
 
 #Add apt sources
-RUN echo "deb http://old-releases.ubuntu.com/ubuntu lucid main universe" > /etc/apt/sources.list
-RUN echo "deb http://old-releases.ubuntu.com/ubuntu lucid-updates main universe" >> /etc/apt/sources.list
-RUN echo "deb http://old-releases.ubuntu.com/ubuntu lucid-security main universe" >> /etc/apt/sources.list
+RUN echo "deb http://old-releases.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
+RUN echo "deb http://old-releases.ubuntu.com/ubuntu precise-updates main universe" >> /etc/apt/sources.list
+RUN echo "deb http://old-releases.ubuntu.com/ubuntu precise-security main universe" >> /etc/apt/sources.list
 
 #Update, upgrade, clean
 RUN apt-get update && \
