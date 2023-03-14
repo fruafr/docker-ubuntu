@@ -53,8 +53,34 @@ docker run \
   fruafr/ubuntu
 ```
 
-## Source of release information
+## Official source of release information
 - To pull the latest official docker version : `docker pull ubuntu:latest`
 - [Ubuntu - DockerHub](https://hub.docker.com/_/ubuntu)
 - [Ubuntu - Releases](https://wiki.ubuntu.com/Releases)
 
+### Latest
+
+|Ubuntu Version    |Docker image tag                |Current version |
+|------------------|--------------------------------|----------------|
+|devel             |`docker pull ubuntu:devel`      |?               |
+|rolling           |`docker pull ubuntu:rolling`    |?               |
+|latest            |`docker pull ubuntu:latest`     |22.04 - jammy   |
+
+### Versions History (Long Term Support - LTS)
+
+#### Supported versions
+
+|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag           |Note                      |
+|--------------|---------------|--------------|---------------------------|--------------------------|
+|2022          |jammy          |22.04         |`docker pull ubuntu:22.04` |LTS                       |
+|2020          |focal          |20.04         |`docker pull ubuntu:20.04` |LTS                       |
+|2018          |bionic         |18.04         |`docker pull ubuntu:18.04` |LTS                       |
+|2016          |xenial         |16.04         |`docker pull ubuntu:16.04` |LTS                       |
+|2014          |trusty         |14.04         |`docker pull ubuntu:14.04` |LTS                       |
+
+#### Obsolete versions 
+
+|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag           |Note                      |
+|--------------|---------------|--------------|---------------------------|--------------------------|
+|2012          |precise        |12.04         |`docker pull ubuntu:12.04` |End of Life 2017          |
+|2010          |lucid          |10.04         |`docker pull ubuntu:10.04` |End of Life 2015          |
