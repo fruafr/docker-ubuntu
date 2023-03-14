@@ -1,6 +1,6 @@
 # Base Ubuntu distributions
 
-These containers are built from Ubuntu base with the proper apt sources (normal or archive). No additional package is installed.
+These containers are built from Ubuntu base with active apt sources (normal or archive). No additional package is installed.
 
 The Dockerfiles are available in the [fruafr/docker-ubuntu Github repository](https://github.com/fruafr/docker-ubuntu)
 
