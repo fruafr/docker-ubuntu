@@ -1,4 +1,4 @@
-# Base Ubuntu distributions
+# Ubuntu - Base distributions
 
 These containers are built from Ubuntu base with active apt sources (normal or archive). No additional package is installed.
 
