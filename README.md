@@ -4,7 +4,7 @@ These containers are built from Ubuntu base with active apt sources (normal or a
 
 The Dockerfiles are available in the [fruafr/docker-ubuntu Github repository](https://github.com/fruafr/docker-ubuntu)
 
-The resulting docker containers are available in the [frua/ubuntu Docker Hub](https://hub.docker.com/repository/docker/fruafr/ubuntu)
+The resulting docker containers are available in the [fruafr/ubuntu Docker Hub](https://hub.docker.com/repository/docker/fruafr/ubuntu)
 
 [![debian build status](https://img.shields.io/docker/cloud/build/fruafr/ubuntu.svg)](https://hub.docker.com/repository/docker/fruafr/ubuntu)
 
