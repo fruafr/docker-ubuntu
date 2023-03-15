@@ -58,7 +58,7 @@ docker run \
 - [Ubuntu - DockerHub](https://hub.docker.com/_/ubuntu)
 - [Ubuntu - Releases](https://wiki.ubuntu.com/Releases)
 
-### Latest
+### Current
 
 |Ubuntu Version    |Docker image tag                |Current version |
 |------------------|--------------------------------|----------------|
