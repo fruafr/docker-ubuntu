@@ -22,20 +22,20 @@ This repository has multiple branches that relate to Ubuntu versions.
 
 ### Supported versions
 
-|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag                  |Note                      |Repo Branch       |
+|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag                  |End of Life               |Repo Branch       |
 |--------------|---------------|--------------|----------------------------------|--------------------------|------------------|
-|2022          |jammy          |22.04         |`docker pull fruafr/ubuntu:jammy` |LTS                       |jammy             |
-|2020          |focal          |20.04         |`docker pull fruafr/ubuntu:focal` |LTS                       |focal             |
-|2018          |bionic         |18.04         |`docker pull fruafr/ubuntu:bionic` |LTS                       |bionic            |
-|2016          |xenial         |16.04         |`docker pull fruafr/ubuntu:xenial` |LTS                       |xenial            |
-|2014          |trusty         |14.04         |`docker pull fruafr/ubuntu:trusty` |LTS                       |trusty            |
+|2022          |jammy          |22.04         |`docker pull fruafr/ubuntu:jammy` |LTS - 2032-04             |jammy             |
+|2020          |focal          |20.04         |`docker pull fruafr/ubuntu:focal` |LTS - 2030-04             |focal             |
+|2018          |bionic         |18.04         |`docker pull fruafr/ubuntu:bionic` |LTS - 2028-04            |bionic            |
+|2016          |xenial         |16.04         |`docker pull fruafr/ubuntu:xenial` |LTS - 2026-04            |xenial            |
+|2014          |trusty         |14.04         |`docker pull fruafr/ubuntu:trusty` |LTS - 2024-04            |trusty            |
 
 ### Obsolete versions 
 
-|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag                    |Note                      |Repo Branch       |
+|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag                    |End of Life                      |Repo Branch       |
 |--------------|---------------|--------------|------------------------------------|--------------------------|------------------|
-|2012          |precise        |12.04         |`docker pull fruafr/ubuntu:precise` |End of Life 2017          |precise           |
-|2010          |lucid          |10.04         |`docker pull fruafr/ubuntu:lucid`   |End of Life 2015          |lucid             |
+|2012          |precise        |12.04         |`docker pull fruafr/ubuntu:precise` |LTS - 2017-04             |precise           |
+|2010          |lucid          |10.04         |`docker pull fruafr/ubuntu:lucid`   |LTS - 2015-04             |lucid             |
 
 The containers are generated on Ubuntu. 
 
@@ -70,20 +70,20 @@ docker run \
 
 #### Supported versions
 
-|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag           |Note                      |
+|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag           |End of Life               |
 |--------------|---------------|--------------|---------------------------|--------------------------|
-|2022          |jammy          |22.04         |`docker pull ubuntu:22.04` |LTS                       |
-|2020          |focal          |20.04         |`docker pull ubuntu:20.04` |LTS                       |
-|2018          |bionic         |18.04         |`docker pull ubuntu:18.04` |LTS                       |
-|2016          |xenial         |16.04         |`docker pull ubuntu:16.04` |LTS                       |
-|2014          |trusty         |14.04         |`docker pull ubuntu:14.04` |LTS                       |
+|2022          |jammy          |22.04         |`docker pull ubuntu:22.04` |LTS - 2032-04             |
+|2020          |focal          |20.04         |`docker pull ubuntu:20.04` |LTS - 2030-04             |
+|2018          |bionic         |18.04         |`docker pull ubuntu:18.04` |LTS - 2028-04             |
+|2016          |xenial         |16.04         |`docker pull ubuntu:16.04` |LTS - 2026-04             |
+|2014          |trusty         |14.04         |`docker pull ubuntu:14.04` |LTS - 2024-04             |
 
 #### Obsolete versions 
 
-|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag           |Note                      |
+|Year Released |Ubuntu Version |Ubuntu Number |Docker image tag           |End of Life               |
 |--------------|---------------|--------------|---------------------------|--------------------------|
-|2012          |precise        |12.04         |`docker pull ubuntu:12.04` |End of Life 2017          |
-|2010          |lucid          |10.04         |`docker pull ubuntu:10.04` |End of Life 2015          |
+|2012          |precise        |12.04         |`docker pull ubuntu:12.04` |LTS - 2017-04             |
+|2010          |lucid          |10.04         |`docker pull ubuntu:10.04` |LTS - 2015-04             |
 
 ----
 Updated: 2023-03-14
