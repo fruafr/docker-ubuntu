@@ -6,7 +6,7 @@ The Dockerfiles are available in the [fruafr/docker-ubuntu Github repository](ht
 
 The resulting docker containers are available in the [fruafr/ubuntu Docker Hub](https://hub.docker.com/repository/docker/fruafr/ubuntu)
 
-[![debian build status](https://img.shields.io/docker/cloud/build/fruafr/ubuntu.svg)](https://hub.docker.com/repository/docker/fruafr/ubuntu)
+[![ubuntu build status](https://img.shields.io/docker/cloud/build/fruafr/ubuntu.svg)](https://hub.docker.com/repository/docker/fruafr/ubuntu)
 
 ## Current
 
